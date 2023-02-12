@@ -375,6 +375,9 @@ footer .credit a {
     flex: 50%;
     max-width: 50%;
   }
+  .contact .row {
+    margin: 0;
+  }
   /* .shop .row {
     flex-wrap: wrap;
     justify-items: center;
