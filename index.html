@@ -24,6 +24,16 @@
     />
     <!--CSS-->
     <link rel="stylesheet" href="css/style.css" />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css"
+    />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.min.css"
+    />
   </head>
   <body>
     <!--Navbar Start-->
@@ -104,51 +114,47 @@
         occaecat cupidatat non proident, sunt in culpa qui officia deserunt
         mollit anim id est laborum
       </p>
-      <div class="product-row">
-        <div class="product-coloumn">
-          <img src="assets/1.jpg" />
-          <img src="assets/2.jpg" />
-          <img src="assets/3.jpg" />
-          <img src="assets/4.jpg" />
-          <img src="assets/5.jpg" />
-          <img src="assets/6.jpg" />
-          <img src="assets/7.jpg" />
-        </div>
-        <div class="product-coloumn">
-          <img src="assets/8.jpg" />
-          <img src="assets/9.jpg" />
-          <img src="assets/10.jpg" />
-          <img src="assets/11.jpg" />
-          <img src="assets/12.jpg" />
-          <img src="assets/13.jpg" />
-          <img src="assets/14.jpg" />
-        </div>
-        <div class="product-coloumn">
-          <img src="assets/15.jpg" />
-          <img src="assets/16.jpg" />
-          <img src="assets/17.jpg" />
-          <img src="assets/18.jpg" />
-          <img src="assets/19.jpg" />
-          <img src="assets/20.jpg" />
-          <img src="assets/21.jpg" />
+      <div class="swiper">
+        <div class="swip-wrap slider">
+          <div class="card">
+            <div class="card-image">
+              <img src="assets/1.jpg" alt="1" />
+            </div>
+          </div>
+          <div class="card">
+            <div class="card-image">
+              <img src="assets/4.jpg" alt="4" />
+            </div>
+          </div>
+          <div class="card">
+            <div class="card-image">
+              <img src="assets/7.jpg" alt="7" />
+            </div>
+          </div>
+          <div class="card">
+            <div class="card-image">
+              <img src="assets/12.jpg" alt="12" />
+            </div>
+          </div>
+          <div class="card">
+            <div class="card-image">
+              <img src="assets/10.jpg" alt="10" />
+            </div>
+          </div>
+          <div class="card">
+            <div class="card-image">
+              <img src="assets/11.jpg" alt="11" />
+            </div>
+          </div>
+          <div class="card">
+            <div class="card-image">
+              <img src="assets/17.jpg" alt="17" />
+            </div>
+          </div>
         </div>
       </div>
     </section>
     <!-- Pruduct Section end -->
-    <!-- Shop Section start-->
-    <!-- <section id="shop" class="shop ">
-      <h2>Get Now</h2>
-      <div class="row">
-        <div class="content">
-          <a href="https://shp.ee/mej8bni" class="cta">Get Now</a>
-        </div>
-        <div class="shop-img">
-          <img src="assets/shop.jpg" alt="get Now" />
-        </div>
-      </div>
-    </section> -->
-    <!-- Shop Section end-->
-    <!-- Contact Section start-->
     <section id="contact" class="contact">
       <h2>Contact Us</h2>
       <p>
@@ -219,5 +225,20 @@
     <!--My Javascript-->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script src="Js/script.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+    <script
+      type="text/javascript"
+      src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"
+    ></script>
+    <script type="text/javascript">
+      $(".slider").slick({
+        dots: true,
+        infinite: true,
+        speed: 300,
+        slidesToShow: 1,
+        centerMode: true,
+        variableWidth: true,
+      });
+    </script>
   </body>
 </html>
