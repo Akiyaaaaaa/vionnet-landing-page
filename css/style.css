@@ -160,7 +160,7 @@ body {
   flex: 1 1 45rem;
 }
 .about .row .about-img img {
-  width: 75%;
+  width: 100%;
   border-radius: 2rem;
 }
 .about .content {
@@ -315,7 +315,7 @@ footer .credit a {
     display: inline-block;
   }
   .navbar .navbar-nav {
-    position: absolute;
+    position: fixed;
     top: 66px;
     right: 0%;
     background-color: var(--banner);
