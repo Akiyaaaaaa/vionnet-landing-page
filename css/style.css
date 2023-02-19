@@ -316,7 +316,7 @@ footer .credit a {
   }
   .navbar .navbar-nav {
     position: fixed;
-    top: 66px;
+    top: 64px;
     right: 0%;
     background-color: var(--banner);
     width: 0;
@@ -370,32 +370,7 @@ footer .credit a {
   html {
     font-size: 55%;
   }
-  #menu {
-    display: inline-block;
-  }
   .navbar .navbar-nav {
-    position: absolute;
-    top: 66px;
-    right: -100%;
-    background-color: var(--banner);
-    width: 30rem;
-    height: 100vh;
-    transition: 0.3s;
-  }
-  .navbar .navbar-nav.active {
-    right: 0;
-  }
-  .navbar .navbar-nav a {
-    color: var(--font);
-    display: block;
-    margin: 1.5rem;
-    padding: 0.5rem;
-    font-size: 2rem;
-  }
-  .navbar .navbar-nav a::after {
-    transform-origin: 0 0;
-  }
-  .navbar .navbar-nav a:hover::after {
-    transform: scaleX(0.2);
+    top: 57px;
   }
 }
