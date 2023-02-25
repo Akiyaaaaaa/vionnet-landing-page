@@ -22,6 +22,12 @@
       href="https://fonts.googleapis.com/icon?family=Material+Icons|Material+Icons+Outlined"
       rel="stylesheet"
     />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="assets/favicon-32x32.png"
+    />
     <!--CSS-->
     <link rel="stylesheet" href="css/style.css" />
     <link
@@ -68,8 +74,8 @@
       <main class="content">
         <h1>Hello <span>Viogang</span></h1>
         <p>
-          Vionnet created to make the wearer comfortable on daily and formal
-          activities
+          We are thrilled to have you here. Browse through our website and
+          discover what we have to offer.
         </p>
         <a
           href="https://shp.ee/mej8bni"
@@ -91,12 +97,18 @@
         <div class="content">
           <h3>Why choose Vionnet?</h3>
           <p>
-            Vionnet created to make the wearer comfortable on daily and formal
-            activities
+            We are committed to providing you with high-quality product that is
+            both comfortable and stylish. We believe that fashion should not
+            come at the cost of comfort, which is why we prioritize both aspects
+            in our designs.
           </p>
           <p>
-            Anybody can wear our product which focus on details, quality, and
-            comfort
+            Vionnet is crafted with meticulous attention to detail, ensuring
+            that each piece is not only functional but also visually appealing.
+            Whether you're dressing up for a formal occasion or keeping it
+            casual for your day-to-day activities. With Vionnet, you can be
+            assured of timeless and elegant pieces that will last you for years
+            to come.
           </p>
         </div>
       </div>
@@ -106,13 +118,11 @@
     <section id="product" class="product">
       <h2><span>Our </span><span>Product</span></h2>
       <p>
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
-        veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
-        commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
-        velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint
-        occaecat cupidatat non proident, sunt in culpa qui officia deserunt
-        mollit anim id est laborum
+        Introducing our latest collection of fashion items that are perfect for
+        any occasion. Our fashion items are versatile and can be worn on any
+        occasion. Whether you're looking for a timeless classic or a trendy
+        statement piece, we have something for everyone. Shop now and experience
+        the perfect blend of quality, comfort, and style with our fashion items
       </p>
       <div class="swiper">
         <div class="swip-wrap slider">
@@ -158,28 +168,55 @@
     <section id="contact" class="contact">
       <h2>Contact Us</h2>
       <p>
-        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Recusandae,
-        maiores.
+        Our team is always happy to hear from you. If you have any questions,
+        feedback, or concerns about our products or services, please don't
+        hesitate to contact us. You can reach us through the form on this page .
+        We will do our best to respond to your inquiries in a timely manner.
+        Your satisfaction is our top priority, and we appreciate your interest
+        in our brand. Thank you for choosing us!
       </p>
       <div class="row">
         <form action="">
           <div class="input-group">
             <i data-feather="user"></i>
-            <input type="text" placeholder="name" />
+            <input
+              type="text"
+              id="name"
+              name="name"
+              placeholder="name"
+              required
+            />
           </div>
           <div class="input-group">
             <i data-feather="mail"></i>
-            <input type="text" placeholder="Email" />
+            <input
+              type="email"
+              id="email"
+              name="email"
+              placeholder="Email"
+              required
+            />
           </div>
           <div class="input-group">
-            <i data-feather="phone"></i>
-            <input type="text" placeholder="Phone Number" />
+            <i data-feather="edit-3"></i>
+            <input
+              type="text"
+              id="subject"
+              name="subject"
+              placeholder="Subject"
+            />
           </div>
           <div class="input-group">
             <i data-feather="message-square"></i>
-            <input type="text" placeholder="Write something..." />
+            <input
+              type="text"
+              id="message"
+              name="message"
+              placeholder="Write something..."
+            />
           </div>
-          <button type="submit" class="btn">submit</button>
+          <input type="submit" class="btn" value="send" />
+          <!-- <button type="submit" class="btn" value="send">submit</button> -->
         </form>
       </div>
     </section>
